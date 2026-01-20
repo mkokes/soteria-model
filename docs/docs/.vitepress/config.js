@@ -12,8 +12,8 @@ const modelSidebar = (lang = '') => [
       { text: lang === 'es' ? 'Roles de Coordinación' : lang === 'so' ? 'Doorarka Isuduwaha' : lang === 'ar' ? 'أدوار المنسقين' : 'Steward Roles', link: `${lang ? '/' + lang : ''}/model/stewards` },
       { text: lang === 'es' ? 'Confianza y Aval' : lang === 'so' ? 'Kalsooni & Dammaanad' : lang === 'ar' ? 'الثقة والتزكية' : 'Trust & Vouching', link: `${lang ? '/' + lang : ''}/model/trust` },
       { text: lang === 'es' ? 'Escalamiento' : lang === 'so' ? 'Kobcin' : lang === 'ar' ? 'التوسع' : 'Scaling', link: `${lang ? '/' + lang : ''}/model/scaling` },
-    ]
-  }
+    ],
+  },
 ]
 
 const rightsSidebar = (lang = '') => [
@@ -27,8 +27,8 @@ const rightsSidebar = (lang = '') => [
       { text: lang === 'es' ? 'Durante una Parada de Tráfico' : lang === 'so' ? 'Joojinta Taraafikada' : lang === 'ar' ? 'عند إيقاف السيارة' : 'During a Traffic Stop', link: `${lang ? '/' + lang : ''}/rights/traffic-stop` },
       { text: lang === 'es' ? 'Si Es Detenido' : lang === 'so' ? 'Haddii Lagu Xidho' : lang === 'ar' ? 'إذا تم احتجازك' : 'If Detained', link: `${lang ? '/' + lang : ''}/rights/if-detained` },
       { text: lang === 'es' ? 'Tarjetas para Imprimir' : lang === 'so' ? 'Kaadhadhka Daabacaadda' : lang === 'ar' ? 'بطاقات للطباعة' : 'Printable Cards', link: `${lang ? '/' + lang : ''}/rights/print-cards` },
-    ]
-  }
+    ],
+  },
 ]
 
 const startCellSidebar = (lang = '') => [
@@ -40,8 +40,8 @@ const startCellSidebar = (lang = '') => [
       { text: lang === 'es' ? 'Configurar Signal' : lang === 'so' ? 'Dejinta Signal' : lang === 'ar' ? 'إعداد Signal' : 'Setting Up Signal', link: `${lang ? '/' + lang : ''}/start-a-cell/signal-setup` },
       { text: lang === 'es' ? 'Proceso de Incorporación' : lang === 'so' ? 'Habka Soo-dhoweynta' : lang === 'ar' ? 'عملية الانضمام' : 'Onboarding Process', link: `${lang ? '/' + lang : ''}/start-a-cell/onboarding` },
       { text: lang === 'es' ? 'Plantillas' : lang === 'so' ? 'Qaabayn' : lang === 'ar' ? 'النماذج' : 'Templates', link: `${lang ? '/' + lang : ''}/start-a-cell/templates` },
-    ]
-  }
+    ],
+  },
 ]
 
 const securitySidebar = (lang = '') => [
@@ -53,8 +53,8 @@ const securitySidebar = (lang = '') => [
       { text: lang === 'es' ? 'Seguridad en Comunicaciones' : lang === 'so' ? 'Amniga Isgaarsiinta' : lang === 'ar' ? 'أمان الاتصالات' : 'Communication OpSec', link: `${lang ? '/' + lang : ''}/security/communication` },
       { text: lang === 'es' ? 'Seguridad Física' : lang === 'so' ? 'Amniga Jirka' : lang === 'ar' ? 'الأمان المادي' : 'Physical Security', link: `${lang ? '/' + lang : ''}/security/physical` },
       { text: lang === 'es' ? 'Si Hay Compromiso' : lang === 'so' ? 'Haddii La Khalkhalgeliyo' : lang === 'ar' ? 'إذا تم الاختراق' : 'If Compromised', link: `${lang ? '/' + lang : ''}/security/compromise` },
-    ]
-  }
+    ],
+  },
 ]
 
 export default defineConfig({
@@ -74,27 +74,27 @@ export default defineConfig({
   locales: {
     root: {
       label: 'English',
-      lang: 'en'
+      lang: 'en',
     },
     es: {
       label: 'Español',
       lang: 'es',
       title: 'Modelo Soteria',
-      description: 'Un modelo replicable de seguridad comunitaria y ayuda mutua para proteger poblaciones vulnerables'
+      description: 'Un modelo replicable de seguridad comunitaria y ayuda mutua para proteger poblaciones vulnerables',
     },
     so: {
       label: 'Soomaali',
       lang: 'so',
       title: 'Qaabka Soteria',
-      description: 'Qorshe la nuqul karo oo ah badbaadada bulshada iyo kaalmada labada dhinac ee ilaalinta dadka nugul'
+      description: 'Qorshe la nuqul karo oo ah badbaadada bulshada iyo kaalmada labada dhinac ee ilaalinta dadka nugul',
     },
     ar: {
       label: 'العربية',
       lang: 'ar',
       dir: 'rtl',
       title: 'نموذج سوتيريا',
-      description: 'نموذج قابل للتكرار لسلامة المجتمع والمساعدة المتبادلة لحماية الفئات الضعيفة'
-    }
+      description: 'نموذج قابل للتكرار لسلامة المجتمع والمساعدة المتبادلة لحماية الفئات الضعيفة',
+    },
   },
 
   themeConfig: {
@@ -131,17 +131,17 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mkokes/soteria-model' }
+      { icon: 'github', link: 'https://github.com/mkokes/soteria-model' },
     ],
 
     footer: {
       message: 'A replicable blueprint for community safety. Fork it. Adapt it. Protect each other.',
-      copyright: 'Released under CC BY-SA 4.0 | No tracking. No data collection.'
+      copyright: 'Released under CC BY-SA 4.0 | No tracking. No data collection.',
     },
 
     search: {
-      provider: 'local'
-    }
-  }
+      provider: 'local',
+    },
+  },
 })
 

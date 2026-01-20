@@ -1,0 +1,15 @@
+echo "Running ESLint before push..."
+
+# Run ESLint from the docs directory
+cd docs && npm run lint
+
+# If ESLint fails, prevent the push
+if [ $? -ne 0 ]; then
+  echo ""
+  echo "❌ ESLint found errors. Please fix them before pushing."
+  echo "You can run 'cd docs && npm run lint:fix' to automatically fix some issues."
+  exit 1
+fi
+
+echo "✅ ESLint passed! Proceeding with push..."
+
