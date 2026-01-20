@@ -48,6 +48,8 @@ My A-Number (if any): _______________________
 
 *Do not sign any documents without an attorney.*
 
+---
+
 </div>
 </div>
 
@@ -59,7 +61,22 @@ My A-Number (if any): _______________________
 
 <div class="card-content">
 
-### Frente
+### Front
+
+**I AM EXERCISING MY CONSTITUTIONAL RIGHTS**
+
+- I have the right to remain silent.
+- I do not consent to any search.
+- I wish to speak with an attorney.
+
+**If agents come to your home:**
+- Do not open the door
+- Ask for a warrant signed by a judge
+- You may remain silent
+
+---
+
+### Back
 
 **ESTOY EJERCIENDO MIS DERECHOS CONSTITUCIONALES**
 
@@ -73,8 +90,6 @@ My A-Number (if any): _______________________
 - Puede permanecer en silencio
 
 ---
-
-### Reverso
 
 **CONTACTOS DE EMERGENCIA**
 
@@ -101,7 +116,22 @@ Mi Número A (si tiene): _______________________
 
 <div class="card-content">
 
-### Hore
+### Front
+
+**I AM EXERCISING MY CONSTITUTIONAL RIGHTS**
+
+- I have the right to remain silent.
+- I do not consent to any search.
+- I wish to speak with an attorney.
+
+**If agents come to your home:**
+- Do not open the door
+- Ask for a warrant signed by a judge
+- You may remain silent
+
+---
+
+### Back
 
 **WAXAAN ISTICMAALAYAA XUQUUQDAYDA DASTUURIGA**
 
@@ -115,8 +145,6 @@ Mi Número A (si tiene): _______________________
 - Waxaad aammusan kari kartaa
 
 ---
-
-### Gadaal
 
 **XIRIIRRADA DEGDEGGA**
 
@@ -137,13 +165,30 @@ Lambarkayga A (haddii jiro): _______________________
 
 ---
 
-<div class="print-card" dir="rtl">
+<div class="print-card">
 
 ## بطاقة الحقوق — العربية
 
 <div class="card-content">
 
-### الأمام
+### Front
+
+**I AM EXERCISING MY CONSTITUTIONAL RIGHTS**
+
+- I have the right to remain silent.
+- I do not consent to any search.
+- I wish to speak with an attorney.
+
+**If agents come to your home:**
+- Do not open the door
+- Ask for a warrant signed by a judge
+- You may remain silent
+
+---
+
+### Back
+
+<div dir="rtl">
 
 **أنا أمارس حقوقي الدستورية**
 
@@ -158,8 +203,6 @@ Lambarkayga A (haddii jiro): _______________________
 
 ---
 
-### الخلف
-
 **جهات اتصال الطوارئ**
 
 محاميّ: _______________________
@@ -173,6 +216,8 @@ Lambarkayga A (haddii jiro): _______________________
 - RAICES: 1-888-305-4945
 
 *لا توقع أي وثيقة بدون محامٍ.*
+
+</div>
 
 </div>
 </div>
