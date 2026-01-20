@@ -198,7 +198,7 @@ This document tracks the translation progress of the Soteria Model documentation
 ### Directory Structure
 
 ```
-docs/docs/
+docs/content/
 ├── locales/
 │   ├── es/          # Spanish (89% complete)
 │   ├── so/          # Somali (89% complete)
