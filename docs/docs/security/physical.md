@@ -95,7 +95,7 @@ For trainings or events with printed materials:
 - Trust your instincts — if something feels wrong, it might be
 - Have check-in systems for activities
 - Know how to contact someone if you don't return
-- Carry your rights card
+- [Carry your rights card](/rights/print-cards) — print and keep with you
 
 ### During Activities
 

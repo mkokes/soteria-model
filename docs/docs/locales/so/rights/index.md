@@ -48,9 +48,19 @@ Haddii lagu xidho, waxaad xaq u leedahay wicitaan waqti macquul ah gudihiis.
 
 1. **Xasuuso lambar telefoon degdeg** — Laga yaabo inaadan heli karin telefoonkaaga
 2. **Samee qorshe carruurta** — Ogow cida daryeeli doonta haddii aadan joogin
-3. **Qaado kaarka xuquuqda** — Ku hayso xuquuqdaada qoraal ahaan
+3. **[Qaado kaarka xuquuqda](/rights/print-cards)** — Daabac oo weligaa la socdo
 4. **Ogow qareenkaaga** — Macluumaadka la xiriirka qareen socdaal diyaar u hayso
 5. **Qor macluumaad muhiim ah** — Lambarka qariibka (A-number), macluumaadka xiriirka
+
+## Kaadhadhka Xuquuqda ee Daabacaadda
+
+Daabac kaadhadhkan cabbirka jeebka si aad u qaadato:
+
+::: tip HADDA DIYAAR
+[**Soo deji kaadhadhka xuquuqda ee daabacaadda →**](/rights/print-cards)
+
+Waxaa lagu heli karaa Ingiriis, Isbaanish, Soomaali, iyo Carabi. Daabac, jar, laab, oo weligaa la socdo.
+:::
 
 ## Khayraadka Degdegga
 

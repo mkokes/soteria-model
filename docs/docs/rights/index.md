@@ -50,17 +50,19 @@ You do not have to sign anything you don't understand or agree with.
 Don't wait for an encounter to know your rights. Prepare now:
 
 1. **Memorize key phrases** in English
-2. **Carry a rights card** (we provide templates)
+2. **[Carry a rights card](/rights/print-cards)** — print and keep with you at all times
 3. **Know an immigration attorney's number** (or your cell's legal contact)
 4. **Create a family safety plan** — who cares for children if you're detained?
 5. **Keep important documents** in a safe place with someone you trust
 
-## Rights Cards
+## Printable Rights Cards
 
-Printable cards you can carry:
+Print these wallet-sized cards to carry with you:
 
-::: tip COMING SOON
-Downloadable rights cards in multiple languages will be available in the Templates section.
+::: tip AVAILABLE NOW
+[**Download printable rights cards →**](/rights/print-cards)
+
+Available in English, Spanish, Somali, and Arabic. Print, cut, fold, and keep with you at all times.
 :::
 
 ## Know Your Rights Trainings

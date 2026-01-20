@@ -84,7 +84,7 @@ Border Patrol has expanded authority within 100 miles of any US border (includin
 ### Before Going Out
 
 - Tell someone where you're going and when you'll return
-- Carry your rights card
+- [Carry your rights card](/rights/print-cards) — print and keep with you
 - Know your legal contact number by heart
 - Consider the Transporter segment for high-risk trips
 

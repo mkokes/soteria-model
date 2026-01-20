@@ -48,9 +48,19 @@ Si eres arrestado, tienes derecho a hacer una llamada local dentro de un tiempo 
 
 1. **Memoriza un número de teléfono de emergencia** — Puede que no tengas acceso a tu teléfono
 2. **Ten un plan para los niños** — Sabe quién los cuidará si no estás
-3. **Lleva una tarjeta de derechos** — Ten tus derechos escritos contigo
+3. **[Lleva una tarjeta de derechos](/rights/print-cards)** — Imprime y lleva contigo en todo momento
 4. **Conoce a tu abogado** — Ten información de contacto de un abogado de inmigración lista
 5. **Documenta información importante** — Número de extranjero (A-number), información de contactos
+
+## Tarjetas de Derechos para Imprimir
+
+Imprime estas tarjetas del tamaño de una billetera para llevar contigo:
+
+::: tip DISPONIBLE AHORA
+[**Descargar tarjetas de derechos para imprimir →**](/rights/print-cards)
+
+Disponible en inglés, español, somalí y árabe. Imprime, corta, dobla y lleva contigo en todo momento.
+:::
 
 ## Recursos de Emergencia
 
