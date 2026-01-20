@@ -31,11 +31,19 @@ features:
     details: Any community can adopt this blueprint. Fork it, adapt it to your local reality, protect your neighbors.
 ---
 
+<div class="home-content">
+
 ## What is the Soteria Model?
 
-**Soteria** — from the Greek goddess of safety and deliverance — is a framework for communities to organize mutual aid and protection for vulnerable populations, particularly immigrants facing harassment, surveillance, or targeting.
+<p class="lead">
+<strong>Soteria</strong> — from the Greek goddess of safety and deliverance — is a framework for communities to organize mutual aid and protection for vulnerable populations, particularly immigrants facing harassment, surveillance, or targeting.
+</p>
 
-This is not a service. It's a **blueprint**. A set of principles, structures, and practices that any community can adopt to protect their own.
+<p class="lead">
+This is not a service. It's a <strong>blueprint</strong>. A set of principles, structures, and practices that any community can adopt to protect their own.
+</p>
+
+<div class="section-divider"></div>
 
 ### The Problem
 
@@ -45,28 +53,80 @@ Immigrant communities — documented, undocumented, and citizens targeted by the
 
 Organized community protection through:
 
-- **Sentinels** who observe and report suspicious activity
-- **Transporters** who provide safe rides to essential destinations
-- **Resource networks** that distribute supplies and funds
-- **Business allies** who support and protect immigrant-owned businesses
-- **Legal observers** who train community members on their rights
+<div class="solution-grid">
 
-All coordinated through **encrypted communication**, organized in **isolated segments** for security, and connected through a **web of trust** built on personal vouching.
+<div class="solution-item">
+  <strong>Sentinels</strong> who observe and report suspicious activity
+</div>
+
+<div class="solution-item">
+  <strong>Transporters</strong> who provide safe rides to essential destinations
+</div>
+
+<div class="solution-item">
+  <strong>Resource networks</strong> that distribute supplies and funds
+</div>
+
+<div class="solution-item">
+  <strong>Business allies</strong> who support and protect immigrant-owned businesses
+</div>
+
+<div class="solution-item">
+  <strong>Legal observers</strong> who train community members on their rights
+</div>
+
+</div>
+
+<p class="coordination-note">
+All coordinated through <strong>encrypted communication</strong>, organized in <strong>isolated segments</strong> for security, and connected through a <strong>web of trust</strong> built on personal vouching.
+</p>
+
+<div class="section-divider"></div>
 
 ### Core Principles
 
-1. **Compartmentalization** — Segments don't overlap. Someone doing observation never knows transportation routes.
-2. **Vouching** — Every member is personally vouched for by someone trusted. No open recruitment.
-3. **Autonomy** — Each cell operates independently. No central authority to compromise.
-4. **Privacy** — No databases of vulnerable individuals. No tracking. Coordination happens off-platform.
-5. **Replicability** — This model is designed to be copied. Take it. Adapt it. Protect your community.
+<div class="principles-list">
 
----
+<div class="principle-item">
+  <span class="principle-number">1</span>
+  <div class="principle-content">
+    <strong>Compartmentalization</strong> — Segments don't overlap. Someone doing observation never knows transportation routes.
+  </div>
+</div>
 
-<div style="text-align: center; margin-top: 2rem;">
+<div class="principle-item">
+  <span class="principle-number">2</span>
+  <div class="principle-content">
+    <strong>Vouching</strong> — Every member is personally vouched for by someone trusted. No open recruitment.
+  </div>
+</div>
 
-**Ready to learn more?**
+<div class="principle-item">
+  <span class="principle-number">3</span>
+  <div class="principle-content">
+    <strong>Autonomy</strong> — Each cell operates independently. No central authority to compromise.
+  </div>
+</div>
 
-[Explore the Model →](/model/)
+<div class="principle-item">
+  <span class="principle-number">4</span>
+  <div class="principle-content">
+    <strong>Privacy</strong> — No databases of vulnerable individuals. No tracking. Coordination happens off-platform.
+  </div>
+</div>
+
+<div class="principle-item">
+  <span class="principle-number">5</span>
+  <div class="principle-content">
+    <strong>Replicability</strong> — This model is designed to be copied. Take it. Adapt it. Protect your community.
+  </div>
+</div>
+
+</div>
+
+<div class="cta-section">
+  <p class="cta-text">Ready to learn more?</p>
+  <a href="/model/" class="cta-button">Explore the Model →</a>
+</div>
 
 </div>
