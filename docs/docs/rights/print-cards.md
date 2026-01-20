@@ -69,11 +69,6 @@ My A-Number (if any): _______________________
 - I do not consent to any search.
 - I wish to speak with an attorney.
 
-**If agents come to your home:**
-- Do not open the door
-- Ask for a warrant signed by a judge
-- You may remain silent
-
 ---
 
 ### Back
@@ -124,11 +119,6 @@ Mi Número A (si tiene): _______________________
 - I do not consent to any search.
 - I wish to speak with an attorney.
 
-**If agents come to your home:**
-- Do not open the door
-- Ask for a warrant signed by a judge
-- You may remain silent
-
 ---
 
 ### Back
@@ -178,11 +168,6 @@ Lambarkayga A (haddii jiro): _______________________
 - I have the right to remain silent.
 - I do not consent to any search.
 - I wish to speak with an attorney.
-
-**If agents come to your home:**
-- Do not open the door
-- Ask for a warrant signed by a judge
-- You may remain silent
 
 ---
 
