@@ -10,8 +10,9 @@ WORKDIR /app
 # Copy package files from docs directory
 COPY docs/package*.json ./
 
-# Install dependencies (skip prepare scripts like husky)
-RUN npm ci --omit=dev --ignore-scripts
+# Install dependencies including devDependencies (needed for VitePress build)
+# Skip prepare scripts like husky which aren't needed in Docker
+RUN npm ci --ignore-scripts
 
 # Copy the entire docs directory
 COPY docs/ ./
