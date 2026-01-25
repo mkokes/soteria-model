@@ -12,6 +12,47 @@ These principles are non-negotiable. They define what makes the Soteria Model wo
 
 This protects everyone. What you don't know, you cannot reveal — whether through accident, coercion, or compromise.
 
+### Pick a Lane — And Stay In It
+
+**The most important rule: Join ONE segment. Stay in that role.**
+
+When you join a cell, you choose a segment based on your skills, availability, and what the community needs. That becomes your lane. You don't cross into other segments. You don't help out "just this once" in another area. You don't satisfy curiosity about what other segments are doing.
+
+**Why this matters:**
+
+- **Curiosity is a security risk**: Asking "what are the Sentinels seeing?" or "where do Transporters take people?" creates vulnerability. The answer to "I don't know" is the strongest protection you can give someone.
+- **Crossing segments creates exposure**: If you drive for Transporters one week and observe for Sentinels the next, you now know too much. If you're compromised, you can reveal both operations.
+- **"Just helping" isn't helping**: The instinct to pitch in everywhere comes from good intentions, but it undermines the security model. Trust the structure.
+
+### Consequences of Breaking Compartmentalization
+
+Breaking compartmentalization doesn't just put you at risk — it puts everyone at risk:
+
+| What Happens | The Damage |
+|--------------|------------|
+| One person knows multiple segments' activities | If arrested or coerced, they can reveal multiple operations |
+| Information shared between segments | Creates a map of the entire network for anyone who intercepts it |
+| Members "helping out" across segments | Destroys isolation, making the whole cell vulnerable to a single compromise |
+| Casual conversation about other segments | Spreads information that should remain contained |
+
+**If one person is compromised and knows everything, the entire network falls.**
+
+Compartmentalization isn't bureaucracy. It's not about control. It's about **survival**. The structure protects you, protects the people you serve, and protects everyone else in the network.
+
+### What Compartmentalization Looks Like in Practice
+
+**Good:**
+- "I'm a Transporter. I don't know what the Sentinels are doing, and I don't need to."
+- "That's not my segment. Let me connect you with someone who handles that."
+- "I focus on my role. Other segments focus on theirs."
+
+**Bad:**
+- "I usually do transportation, but I'll help with observation today."
+- "I heard the Sentinels saw something yesterday — what was it?"
+- "I know someone in Resources. Let me ask them about that situation."
+
+**The test**: If you were arrested tomorrow, could you only reveal your own segment's activities? If the answer is no, you've crossed a boundary.
+
 ## 2. Vouching Over Recruitment
 
 **Every member is personally vouched for by someone trusted.**

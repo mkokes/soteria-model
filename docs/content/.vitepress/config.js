@@ -39,6 +39,7 @@ const startCellSidebar = (lang = '') => [
       { text: lang === 'es' ? 'Equipo Fundador' : lang === 'so' ? 'Kooxda Aasaasiga' : lang === 'ar' ? 'الفريق المؤسس' : 'Founding Team', link: `${lang ? '/locales/' + lang : ''}/start-a-cell/founding-team` },
       { text: lang === 'es' ? 'Configurar Signal' : lang === 'so' ? 'Dejinta Signal' : lang === 'ar' ? 'إعداد Signal' : 'Setting Up Signal', link: `${lang ? '/locales/' + lang : ''}/start-a-cell/signal-setup` },
       { text: lang === 'es' ? 'Proceso de Incorporación' : lang === 'so' ? 'Habka Soo-dhoweynta' : lang === 'ar' ? 'عملية الانضمام' : 'Onboarding Process', link: `${lang ? '/locales/' + lang : ''}/start-a-cell/onboarding` },
+      { text: lang === 'es' ? 'Herramientas y Recursos' : lang === 'so' ? 'Qalabka iyo Kheyraadka' : lang === 'ar' ? 'الأدوات والموارد' : 'Tools & Resources', link: `${lang ? '/locales/' + lang : ''}/start-a-cell/tools-and-resources` },
       { text: lang === 'es' ? 'Plantillas' : lang === 'so' ? 'Qaabayn' : lang === 'ar' ? 'النماذج' : 'Templates', link: `${lang ? '/locales/' + lang : ''}/start-a-cell/templates` },
     ],
   },

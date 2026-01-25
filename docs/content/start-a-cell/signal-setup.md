@@ -30,6 +30,26 @@ Never download from third-party sites.
 - Use a phone number you control
 - Consider using a number not tied to your identity (prepaid, Google Voice)
 
+### Step 2.5: Set Your Profile Name
+
+**Do not use your real full name in Signal.**
+
+When setting up your Signal profile:
+- **Use first name only** (e.g., "Maria" not "Maria Rodriguez")
+- **Use a nickname or alias** (e.g., "Jay" instead of "James")
+- **Use initials** (e.g., "MK" instead of "Michael Kim")
+- **Never use full legal name** (creates unnecessary exposure if device seized)
+
+**Why this matters:**
+- If your phone is seized, your Signal contacts list becomes a membership roster
+- Real names make it easier to identify and target members
+- Reduces exposure if screenshots or device access occurs
+- First names or aliases provide enough identification within trusted groups
+
+::: warning IDENTITY PROTECTION
+Your Signal profile name is visible to everyone in your groups. Assume it could be seen by law enforcement if any device in the group is compromised. **Never use your full legal name.**
+:::
+
 ### Step 3: Configure Security Settings
 
 Open Signal Settings and configure:
@@ -70,6 +90,26 @@ Cell Groups
 └── Announcements (one-way, cell-wide)
 ```
 
+**Critical Rule: One Person, One Segment Group**
+
+Each member should only be in:
+1. Their assigned segment group (Sentinels, Transporters, etc.)
+2. The cell-wide Announcements group (if your cell uses one)
+
+**Never add someone to multiple segment groups.** This breaks compartmentalization and creates security vulnerabilities.
+
+### Vetting Before Adding to Groups
+
+Before adding anyone to a segment group, verify:
+
+- [ ] They have been vouched for by a trusted member
+- [ ] They have completed the onboarding process
+- [ ] They have been assigned to this specific segment
+- [ ] They understand compartmentalization and the "one segment" rule
+- [ ] Their Signal is properly configured (disappearing messages, screen lock, etc.)
+
+**If any of these are not complete, do not add them to the group.**
+
 ### Group Naming
 
 **Don't use obvious names.** Instead of "Austin Soteria Transporters," use:
@@ -89,10 +129,31 @@ For each group:
 
 ### Admin Practices
 
-- At least 2 admins per group (redundancy)
-- Remove members promptly when they leave
-- Regularly review member list
-- Admin devices must have highest security
+Group admins are **stewards of security**, not just coordinators. Admin responsibilities include:
+
+**Membership Management:**
+- **Vet before adding**: Only add members who have been properly vouched for and completed onboarding for that specific segment
+- **One segment per person**: Never add someone to multiple segment groups. Compartmentalization requires each person to be in ONE segment only
+- **Prompt removal**: Remove members immediately when they leave the cell or change segments
+- **Regular reviews**: Monthly review of group membership to ensure everyone should still have access
+
+**Security Protocols:**
+- **At least 2 admins per group**: Ensures continuity if one admin is unavailable or compromised
+- **Admin devices must have highest security**: Screen locks, disappearing messages, registration locks all enabled
+- **No screenshots**: Remind members that screen security should be enabled
+- **Monitor for security violations**: Watch for members sharing information across segments or discussing sensitive details
+- **Verify profile names**: Ensure members are not using full legal names in their Signal profiles
+  - If someone joins with a full name, privately ask them to change it to first name or alias only
+  - Explain the security rationale: seized devices create membership rosters
+
+**Group Hygiene:**
+- **Audit membership quarterly**: Verify every member is still active and properly vetted
+- **Document nothing**: Don't keep lists of who was added when or why they left
+- **Trust your instincts**: If something feels off about a member, discuss with other stewards
+
+::: warning ADMIN RESPONSIBILITY
+As a group admin, you hold the keys to your segment's security. A compromised admin account or a careless addition can expose the entire segment. Take this role seriously.
+:::
 
 ## Communication Protocols
 
