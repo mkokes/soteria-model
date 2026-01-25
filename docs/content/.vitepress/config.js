@@ -62,9 +62,10 @@ export default defineConfig({
   title: 'Soteria Model',
   description: 'A community safety and mutual aid blueprint for protecting vulnerable populations',
 
-  // For custom domain (soteriamodel.com), base should be '/'
-  // If deploying to github.io/soteria-model, change to '/soteria-model/'
-  base: '/soteria-model/',
+  // Use environment variable to set base path
+  // For custom domain (soteriamodel.com): base = '/'
+  // For GitHub Pages (username.github.io/soteria-model): base = '/soteria-model/'
+  base: process.env.VITE_BASE_PATH || '/soteria-model/',
 
   head: [
     ['meta', { name: 'robots', content: 'index, follow' }],

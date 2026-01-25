@@ -17,6 +17,9 @@ RUN npm ci --ignore-scripts
 # Copy the entire docs directory
 COPY docs/ ./
 
+# Set base path for custom domain deployment
+ENV VITE_BASE_PATH=/
+
 # Build the VitePress site
 RUN npm run build
 

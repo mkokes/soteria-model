@@ -41,6 +41,8 @@ jobs:
       - name: Build with VitePress
         run: npm run build
         working-directory: docs
+        env:
+          VITE_BASE_PATH: /soteria-model/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
