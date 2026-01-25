@@ -10,8 +10,8 @@ WORKDIR /app
 # Copy package files from docs directory
 COPY docs/package*.json ./
 
-# Install dependencies
-RUN npm ci --only=production
+# Install dependencies (skip prepare scripts like husky)
+RUN npm ci --omit=dev --ignore-scripts
 
 # Copy the entire docs directory
 COPY docs/ ./
