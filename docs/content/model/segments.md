@@ -301,6 +301,331 @@ Sentinels can operate in different configurations based on community needs:
 
 **Most cells use a hybrid approach**, adapting based on current threat levels and available volunteers.
 
+#### License Plate Database
+
+**Purpose**: Tracking license plates of suspicious and confirmed enforcement vehicles enables faster, more accurate alerts to the community.
+
+When a Sentinel spots a vehicle, being able to quickly check "Is this a known enforcement vehicle?" allows for:
+- Faster response times (no need to wait for confirmation)
+- More accurate alerts (reduces false alarms)
+- Pattern recognition (identifying which vehicles operate in which areas)
+- Community protection (early warning when known vehicles appear)
+
+**However, this database is sensitive information that creates significant risk if compromised.**
+
+### Security Considerations
+
+Before maintaining any license plate database, understand the risks:
+
+| Risk | Impact |
+|------|--------|
+| **If seized** | Provides law enforcement with your intelligence on their operations |
+| **If leaked** | Could be used to identify and target Sentinels |
+| **If misused** | Could enable harassment or vigilantism |
+| **Legal exposure** | Could be characterized as surveillance or conspiracy |
+
+**Critical security rules:**
+- ✓ Only designated Sentinels have access (not shared across segments)
+- ✓ Must be easily destroyable if necessary
+- ✓ Regular purging of old/unconfirmed entries
+- ✓ Clear protocols for who can add entries
+- ✓ Consider the trade-off: Is the utility worth the risk?
+
+::: danger HIGH-RISK INFORMATION
+A license plate database is one of the most sensitive pieces of information your cell can maintain. Some cells choose not to maintain one at all, relying instead on real-time SALUTE reports. **Carefully weigh the benefits against the risks before implementing.**
+:::
+
+### Implementation Methods
+
+#### Low-Tech Methods (Safest)
+
+**1. Handwritten List on Paper**
+
+**How it works:**
+- Keep a notebook or index cards with plate numbers and vehicle descriptions
+- Store in a secure location (not carried during patrols)
+- Sentinels review before shifts to memorize current plates
+
+**Advantages:**
+- No digital trail
+- Easily destroyed (burn, shred, flush)
+- Can't be remotely accessed or hacked
+- No metadata (no timestamps, no location data)
+
+**Disadvantages:**
+- Limited accessibility (must be physically present)
+- Harder to search quickly during active observation
+- Can be lost or damaged
+- Difficult to share updates with multiple Sentinels
+
+**Best for**: Small cells with few active Sentinels, high-security environments
+
+---
+
+**2. Memorization by Experienced Sentinels**
+
+**How it works:**
+- Veteran Sentinels memorize 10-20 most common enforcement plates
+- Share verbally during Signal voice calls when spotted
+- New Sentinels learn through repeated exposure
+
+**Advantages:**
+- Zero physical or digital record
+- Impossible to seize or compromise
+- Fastest lookup (instant recognition)
+
+**Disadvantages:**
+- Limited capacity (human memory constraints)
+- Knowledge lost if Sentinel leaves
+- Difficult to onboard new members
+- No backup if Sentinel is unavailable
+
+**Best for**: Experienced Sentinel teams, very high-risk environments
+
+---
+
+**3. Verbal Sharing During Coordination**
+
+**How it works:**
+- No permanent database maintained
+- Sentinels share plate numbers during voice calls when spotted
+- "Heads up, white SUV plate ABC-1234 is back, seen it three times this month"
+
+**Advantages:**
+- No record to seize
+- Real-time information sharing
+- Collective memory across team
+
+**Disadvantages:**
+- Information can be forgotten
+- New Sentinels miss historical context
+- No systematic tracking
+
+**Best for**: Cells prioritizing security over efficiency
+
+#### Digital Methods (Higher Risk, More Functional)
+
+**1. Encrypted Spreadsheet in CryptPad**
+
+**How it works:**
+- Create a spreadsheet in CryptPad (zero-knowledge encryption)
+- Share link only with designated Sentinels
+- Enable auto-delete after 30-90 days
+
+**Security settings:**
+- Use CryptPad's "self-destructing" pad feature
+- Don't link to any personal account
+- Access only from burner devices or secure computers
+- Use a strong password for the pad
+
+**Advantages:**
+- Searchable and sortable
+- Multiple Sentinels can access
+- Can include detailed notes
+- Easy to update
+
+**Disadvantages:**
+- Digital record exists (even if encrypted)
+- Requires internet access to view
+- Link could be intercepted
+- CryptPad could be compelled to provide data (though encrypted)
+
+**Destruction protocol:**
+- Delete the pad entirely (not just clear contents)
+- Clear browser history on all devices that accessed it
+- Recreate with new link if continuing
+
+**Best for**: Medium-sized cells with multiple active Sentinels, moderate-risk environments
+
+---
+
+**2. Signal Note-to-Self with Disappearing Messages**
+
+**How it works:**
+- Create a "Note to Self" conversation in Signal
+- Type plate database as messages
+- Set disappearing messages to 1 week or less
+- Screenshot when needed during patrol, then delete screenshot
+
+**Security settings:**
+- Enable disappearing messages (1 week maximum)
+- Enable screen security (prevents screenshots by others)
+- Use on burner phone only
+- Regularly let messages disappear and recreate
+
+**Advantages:**
+- Encrypted end-to-end
+- Auto-deletes after set time
+- Accessible from phone during patrol
+- No external service required
+
+**Disadvantages:**
+- Still a digital record (until it disappears)
+- Phone could be seized before messages disappear
+- Not easily searchable
+- Limited to one person (your device only)
+
+**Destruction protocol:**
+- Delete entire conversation
+- Messages will disappear on schedule anyway
+- If phone seized, messages are encrypted
+
+**Best for**: Individual Sentinels, temporary tracking, high-mobility situations
+
+---
+
+**3. Encrypted Notes App on Dedicated Device**
+
+**How it works:**
+- Use encrypted notes app (Standard Notes, Joplin, etc.) on burner phone
+- Create note with plate database
+- Access only from that device
+
+**Security settings:**
+- Strong PIN (not biometric) on device
+- Encrypted notes app with separate password
+- No cloud sync enabled
+- Device used only for Sentinel work
+
+**Advantages:**
+- Offline access (no internet needed)
+- Searchable within app
+- Can include photos of vehicles
+- Fully encrypted at rest
+
+**Disadvantages:**
+- Device could be seized
+- Single point of failure
+- Requires maintaining dedicated device
+- Not easily shared with other Sentinels
+
+**Destruction protocol:**
+- Delete note and empty trash
+- Factory reset device
+- Physically destroy device if necessary
+
+**Best for**: Individual Sentinels with dedicated burner devices, offline operations
+
+### What to Track
+
+**Minimum information:**
+- License plate number
+- Vehicle description (make, model, color)
+- Status: "Suspected" or "Confirmed"
+
+**Optional additional information:**
+- Date/location first observed
+- Number of sightings
+- Distinguishing features (antennas, tinted windows, roof racks, dents)
+- Operating patterns (time of day, areas frequented)
+
+**Sample Entry Format:**
+
+```
+ABC-1234 | White Ford Explorer | CONFIRMED
+- First seen: 2/15 near Main St businesses
+- 4 sightings total
+- Tinted windows, multiple antennas
+- Usually operates 8am-12pm
+
+XYZ-5678 | Dark sedan (make unknown) | SUSPECTED
+- Seen once: 3/2 near community center
+- Circling parking lot slowly
+- Needs confirmation
+```
+
+### Lookup Protocol
+
+**During Active Observation:**
+
+1. Sentinel spots suspicious vehicle
+2. Notes license plate number
+3. **Quick check**:
+   - If memorized plates: Instant recognition
+   - If paper list: Radio to another Sentinel who has access
+   - If digital: Quick search on device
+4. If plate is in database as "CONFIRMED": Immediate alert to group
+5. If plate is new: Report via SALUTE, add as "SUSPECTED"
+
+**Who Has Access:**
+- Only designated Sentinels (typically 2-4 experienced members)
+- Not shared with other segments
+- Not shared with new/untrained Sentinels until vetted
+
+**Adding New Plates:**
+
+**Suspected Status:**
+- Any Sentinel can report a suspicious vehicle via SALUTE
+- Designated database keeper adds as "SUSPECTED"
+- Includes date, location, description
+
+**Upgrading to Confirmed:**
+- Requires 2+ independent sightings by different Sentinels, OR
+- Single sighting with clear enforcement activity (badges visible, enforcement action observed), OR
+- Vehicle matches known enforcement fleet characteristics
+
+**Verification Process:**
+- Sentinel reports: "I saw plate ABC-1234 again, same white Explorer, near the grocery store"
+- Database keeper checks: "That's the second sighting, upgrading to CONFIRMED"
+- Alert sent to Sentinel group: "ABC-1234 white Explorer now CONFIRMED enforcement"
+
+### Maintenance and Security Hygiene
+
+**Regular Review (Monthly):**
+- Remove "SUSPECTED" entries older than 60 days with no additional sightings
+- Review "CONFIRMED" entries for continued relevance
+- Verify all entries still have accurate descriptions
+
+**Purging Old Entries:**
+- Suspected plates with no confirmation after 60 days: DELETE
+- Confirmed plates not seen in 6+ months: Consider removing (enforcement may have changed vehicles)
+- Keep database lean (20-30 plates maximum)
+
+**Periodic Destruction and Recreation:**
+- Every 3-6 months: Destroy entire database
+- Recreate with only the most active/recent confirmed plates
+- This limits exposure if database is ever compromised
+
+**Emergency Destruction:**
+- If any Sentinel is arrested or device seized: Destroy database immediately
+- If cell security is compromised: Destroy database immediately
+- Pre-plan destruction method based on storage method
+
+### Practical Example
+
+**Scenario: Rapid Response with Database**
+
+**9:15 AM - Initial Sighting:**
+> Sentinel Maria (on patrol): "White Ford Explorer, plate ABC-1234, circling the parking lot at the grocery store on 5th Street."
+
+**9:16 AM - Database Check:**
+> Sentinel James (database keeper): "ABC-1234 is CONFIRMED enforcement, seen four times in the past month. Usually operates mornings."
+
+**9:16 AM - Alert Issued:**
+> James: "CONFIRMED enforcement vehicle at 5th Street grocery store. White Explorer ABC-1234. Recommend community members avoid that location for the next hour."
+
+**9:17 AM - Rapid Response:**
+> Sentinel team dispatches to location to observe and document
+
+**Without database:** Would require waiting for additional confirmation, delaying alert by 15-30 minutes.
+
+**With database:** Immediate confirmation and alert, faster community protection.
+
+---
+
+**Decision Point for Your Cell:**
+
+Not every cell should maintain a license plate database. Consider:
+- ✓ Do you have experienced Sentinels who can manage it securely?
+- ✓ Is your area seeing repeated enforcement activity with identifiable vehicles?
+- ✓ Can you commit to regular maintenance and security hygiene?
+- ✓ Do you have a secure method that matches your risk tolerance?
+- ✗ If any answer is no, rely on real-time SALUTE reports instead
+
+::: tip REMEMBER
+The database is a tool, not a requirement. Many effective Sentinel operations rely entirely on real-time observation and reporting without maintaining any permanent records. **Security first, efficiency second.**
+:::
+
 ---
 
 ### Transporters
