@@ -44,79 +44,66 @@ Coordinate community-wide days to support specific businesses:
 
 ---
 
-## Register a Business for Support
+## Collecting Business Information
 
-Are you a business owner who wants to connect with community support? Or do you know a business that could use solidarity?
+If your cell wants to maintain a list of businesses that need support, **create your own secure intake form** rather than using a public or permanent system.
 
-::: tip CONNECT YOUR OWN FORM
-This is a placeholder form. Cells should connect this to their own secure system.
+### Recommended: Create a Form with CryptPad
+
+**CryptPad** is a zero-knowledge encrypted collaboration platform that's ideal for collecting sensitive information like business details.
+
+**Why CryptPad:**
+- ✓ Zero-knowledge encryption (even CryptPad can't read your data)
+- ✓ No account required to create forms
+- ✓ Can set forms to self-destruct after a time period
+- ✓ Responses are encrypted and only accessible to form creator
+- ✓ Can be shared via link with your community
+
+**How to create a business intake form:**
+
+1. Go to [CryptPad.fr](https://cryptpad.fr) (or your preferred CryptPad instance)
+2. Click "Form" to create a new form
+3. Add fields to collect the information you need (see suggested fields below)
+4. Enable "Self-destructing pad" if you want the form to auto-delete after a set time
+5. Share the form link only through trusted channels (Signal groups, in-person)
+6. Review responses regularly and transfer to your local records
+7. Delete the form when no longer needed
+
+**Suggested fields for your form:**
+- Business name
+- Type of business (restaurant, grocery, retail, service, etc.)
+- Neighborhood/area
+- Current situation (general support, experiencing harassment, struggling economically, new business)
+- Contact name
+- Preferred contact method (Signal, phone, in-person)
+- Contact information
+- Additional notes
+
+::: warning SECURITY CONSIDERATIONS
+- **Don't leave forms open indefinitely** - Set a time limit or close after collecting responses
+- **Don't link forms to personal accounts** - Use CryptPad anonymously
+- **Share links carefully** - Only through encrypted channels like Signal
+- **Transfer and delete** - Move information to your local records and delete the form
+- **Consider sensitivity** - Business information could put owners at risk if exposed
 :::
 
-<div class="support-form">
+### Alternative: Direct Outreach
 
-### Business Information
+Instead of a form, Business Allies can:
+- Visit businesses in person to introduce the cell
+- Collect information through Signal conversations
+- Build relationships through regular patronage
+- Let business owners reach out when they need support
 
-<form id="business-form" class="community-form">
-  <div class="form-group">
-    <label for="business-name">Business Name</label>
-    <input type="text" id="business-name" name="business-name" placeholder="Name of the business" required>
-  </div>
+**This approach:**
+- Creates no permanent digital record
+- Builds trust through personal connection
+- Allows business owners to control what information they share
+- Reduces risk of information exposure
 
-  <div class="form-group">
-    <label for="business-type">Type of Business</label>
-    <select id="business-type" name="business-type" required>
-      <option value="">Select one...</option>
-      <option value="restaurant">Restaurant / Food</option>
-      <option value="grocery">Grocery / Market</option>
-      <option value="retail">Retail / Shop</option>
-      <option value="service">Service (salon, repair, etc.)</option>
-      <option value="other">Other</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label for="neighborhood">Neighborhood / Area</label>
-    <input type="text" id="neighborhood" name="neighborhood" placeholder="What part of town?">
-  </div>
-
-  <div class="form-group">
-    <label for="situation">Current Situation</label>
-    <select id="situation" name="situation">
-      <option value="general">General support welcome</option>
-      <option value="targeted">Currently experiencing harassment</option>
-      <option value="struggling">Struggling economically</option>
-      <option value="new">New business needs visibility</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label for="contact-name">Contact Name</label>
-    <input type="text" id="contact-name" name="contact-name" placeholder="Who should we contact?">
-  </div>
-
-  <div class="form-group">
-    <label for="contact-method">Preferred Contact</label>
-    <select id="contact-method" name="contact-method">
-      <option value="signal">Signal</option>
-      <option value="phone">Phone</option>
-      <option value="in-person">In Person at the business</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label for="contact-info">Contact Information</label>
-    <input type="text" id="contact-info" name="contact-info" placeholder="Phone number or Signal">
-  </div>
-
-  <div class="form-group">
-    <label for="notes">Additional Notes</label>
-    <textarea id="notes" name="notes" rows="3" placeholder="Anything else we should know..."></textarea>
-  </div>
-
-  <button type="submit" class="submit-btn">Submit Business</button>
-</form>
-
-</div>
+::: tip LEARN MORE
+See the [Tools & Resources](/start-a-cell/tools-and-resources#cryptpad) page for more details on using CryptPad securely.
+:::
 
 ---
 
