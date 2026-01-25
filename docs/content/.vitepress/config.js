@@ -64,7 +64,7 @@ export default defineConfig({
 
   // For custom domain (soteriamodel.com), base should be '/'
   // If deploying to github.io/soteria-model, change to '/soteria-model/'
-  base: '/',
+  base: '/soteria-model/',
 
   head: [
     ['meta', { name: 'robots', content: 'index, follow' }],
