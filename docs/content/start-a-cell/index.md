@@ -36,7 +36,7 @@ It's better to start with 3 deeply trusted people than 10 acquaintances. Trust i
 
 ## Startup Phases
 
-### Phase 1: Foundation (Weeks 1-4)
+### Phase 1: Foundation
 
 - [ ] Founding team agrees on commitment and principles
 - [ ] All members complete [security training](/security/)
@@ -44,7 +44,7 @@ It's better to start with 3 deeply trusted people than 10 acquaintances. Trust i
 - [ ] Define initial segments based on community needs
 - [ ] Establish onboarding process
 
-### Phase 2: First Members (Weeks 5-12)
+### Phase 2: First Members
 
 - [ ] Each founder vouches for 1-2 trusted people
 - [ ] New members go through onboarding process
@@ -52,7 +52,7 @@ It's better to start with 3 deeply trusted people than 10 acquaintances. Trust i
 - [ ] Begin low-risk activities (Know Your Rights training, business support)
 - [ ] Test communication and coordination
 
-### Phase 3: Operations (Ongoing)
+### Phase 3: Operations
 
 - [ ] Activate segments based on community needs
 - [ ] Continue careful vouching and growth
