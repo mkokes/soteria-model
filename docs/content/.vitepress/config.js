@@ -6,12 +6,24 @@ const modelSidebar = (lang = '') => [
     text: lang === 'es' ? 'El Modelo Soteria' : lang === 'so' ? 'Qaabka Soteria' : lang === 'ar' ? 'نموذج سوتيريا' : 'The Soteria Model',
     items: [
       { text: lang === 'es' ? 'Resumen' : lang === 'so' ? 'Guud mar' : lang === 'ar' ? 'نظرة عامة' : 'Overview', link: `${lang ? '/locales/' + lang : ''}/model/` },
+      { text: lang === 'es' ? 'Por Qué Descentralización' : lang === 'so' ? 'Maxay Tahay Kala-Qaybsanaanta' : lang === 'ar' ? 'لماذا اللامركزية' : 'Why Decentralization', link: `${lang ? '/locales/' + lang : ''}/model/decentralization` },
       { text: lang === 'es' ? 'Principios Fundamentales' : lang === 'so' ? 'Mabaadi\'da Aasaasiga' : lang === 'ar' ? 'المبادئ الأساسية' : 'Core Principles', link: `${lang ? '/locales/' + lang : ''}/model/principles` },
       { text: lang === 'es' ? 'Estructura Celular' : lang === 'so' ? 'Qaab-dhismeedka Unugyada' : lang === 'ar' ? 'هيكل الخلية' : 'Cell Structure', link: `${lang ? '/locales/' + lang : ''}/model/cells` },
       { text: lang === 'es' ? 'Segmentos' : lang === 'so' ? 'Qaybaha' : lang === 'ar' ? 'الأقسام' : 'Segments', link: `${lang ? '/locales/' + lang : ''}/model/segments` },
       { text: lang === 'es' ? 'Roles de Coordinación' : lang === 'so' ? 'Doorarka Isuduwaha' : lang === 'ar' ? 'أدوار المنسقين' : 'Steward Roles', link: `${lang ? '/locales/' + lang : ''}/model/stewards` },
       { text: lang === 'es' ? 'Confianza y Aval' : lang === 'so' ? 'Kalsooni & Dammaanad' : lang === 'ar' ? 'الثقة والتزكية' : 'Trust & Vouching', link: `${lang ? '/locales/' + lang : ''}/model/trust` },
       { text: lang === 'es' ? 'Escalamiento' : lang === 'so' ? 'Kobcin' : lang === 'ar' ? 'التوسع' : 'Scaling', link: `${lang ? '/locales/' + lang : ''}/model/scaling` },
+    ],
+  },
+]
+
+const resourcesSidebar = (lang = '') => [
+  {
+    text: lang === 'es' ? 'Centro de Recursos' : lang === 'so' ? 'Xarunta Kheyraadka' : lang === 'ar' ? 'مركز الموارد' : 'Resources Hub',
+    items: [
+      { text: lang === 'es' ? 'Resumen' : lang === 'so' ? 'Guud mar' : lang === 'ar' ? 'نظرة عامة' : 'Overview', link: `${lang ? '/locales/' + lang : ''}/resources/` },
+      { text: lang === 'es' ? 'Herramientas Técnicas' : lang === 'so' ? 'Qalabka Farsamada' : lang === 'ar' ? 'الأدوات التقنية' : 'Technical Tools', link: `${lang ? '/locales/' + lang : ''}/resources/technical` },
+      { text: lang === 'es' ? 'Materiales Imprimibles' : lang === 'so' ? 'Agabka Daabacaadda' : lang === 'ar' ? 'المواد القابلة للطباعة' : 'Printable Materials', link: `${lang ? '/locales/' + lang : ''}/resources/printable` },
     ],
   },
 ]
@@ -107,6 +119,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'The Model', link: '/model/' },
       { text: 'Know Your Rights', link: '/rights/' },
+      { text: 'Resources', link: '/resources/' },
       { text: 'Get Support', link: '/get-support/' },
       { text: 'Support Businesses', link: '/business-support/' },
       { text: 'Start a Cell', link: '/start-a-cell/' },
@@ -116,18 +129,22 @@ export default defineConfig({
     sidebar: {
       '/model/': modelSidebar(),
       '/rights/': rightsSidebar(),
+      '/resources/': resourcesSidebar(),
       '/start-a-cell/': startCellSidebar(),
       '/security/': securitySidebar(),
       '/locales/es/model/': modelSidebar('es'),
       '/locales/es/rights/': rightsSidebar('es'),
+      '/locales/es/resources/': resourcesSidebar('es'),
       '/locales/es/start-a-cell/': startCellSidebar('es'),
       '/locales/es/security/': securitySidebar('es'),
       '/locales/so/model/': modelSidebar('so'),
       '/locales/so/rights/': rightsSidebar('so'),
+      '/locales/so/resources/': resourcesSidebar('so'),
       '/locales/so/start-a-cell/': startCellSidebar('so'),
       '/locales/so/security/': securitySidebar('so'),
       '/locales/ar/model/': modelSidebar('ar'),
       '/locales/ar/rights/': rightsSidebar('ar'),
+      '/locales/ar/resources/': resourcesSidebar('ar'),
       '/locales/ar/start-a-cell/': startCellSidebar('ar'),
       '/locales/ar/security/': securitySidebar('ar'),
     },

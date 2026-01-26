@@ -6,6 +6,109 @@
 
 These are the foundational segments. Cells may adapt based on local needs.
 
+<div class="segment-grid">
+
+<div class="segment-card">
+  <span class="segment-icon">🔭</span>
+  <div class="segment-title">Sentinels</div>
+  <div class="segment-subtitle">Observation & Rapid Response</div>
+  <div class="segment-purpose">Monitor and report suspicious activity to protect the community.</div>
+  <div class="segment-activities">
+    <strong>Key Activities:</strong>
+    <ul>
+      <li>Watch for surveillance and enforcement activity</li>
+      <li>Provide early warning through secure channels</li>
+      <li>Respond to calls for help during encounters</li>
+      <li>Document interactions with consent</li>
+    </ul>
+  </div>
+  <div class="segment-restriction">
+    <strong>Never involved in:</strong> Transportation, resource distribution, or knowing safe locations
+  </div>
+</div>
+
+<div class="segment-card">
+  <span class="segment-icon">🚗</span>
+  <div class="segment-title">Transporters</div>
+  <div class="segment-subtitle">Safe Transportation</div>
+  <div class="segment-purpose">Provide safe rides to essential destinations.</div>
+  <div class="segment-activities">
+    <strong>Key Activities:</strong>
+    <ul>
+      <li>Drive to work, medical appointments, errands</li>
+      <li>Pick up children from school</li>
+      <li>Transport to legal appointments</li>
+      <li>Deliver groceries and supplies</li>
+    </ul>
+  </div>
+  <div class="segment-restriction">
+    <strong>Never involved in:</strong> Observation activities, knowing safe house locations
+  </div>
+</div>
+
+<div class="segment-card">
+  <span class="segment-icon">📦</span>
+  <div class="segment-title">Resource Network</div>
+  <div class="segment-subtitle">Material Support</div>
+  <div class="segment-purpose">Collect and distribute supplies, funds, and essentials.</div>
+  <div class="segment-activities">
+    <strong>Key Activities:</strong>
+    <ul>
+      <li>Organize food and supply drives</li>
+      <li>Manage emergency funds</li>
+      <li>Coordinate with local mutual aid</li>
+      <li>Distribute through trusted channels</li>
+    </ul>
+  </div>
+  <div class="segment-restriction">
+    <strong>Never involved in:</strong> Observation, transportation routes, safe house locations
+  </div>
+</div>
+
+<div class="segment-card">
+  <span class="segment-icon">🏪</span>
+  <div class="segment-title">Business Allies</div>
+  <div class="segment-subtitle">Business Support</div>
+  <div class="segment-purpose">Support and protect immigrant-owned businesses.</div>
+  <div class="segment-activities">
+    <strong>Key Activities:</strong>
+    <ul>
+      <li>Patronize targeted businesses</li>
+      <li>Provide presence during harassment</li>
+      <li>Organize community "buy-in" days</li>
+      <li>De-escalation and witness presence</li>
+    </ul>
+  </div>
+  <div class="segment-restriction">
+    <strong>Never involved in:</strong> Sensitive operational activities in other segments
+  </div>
+</div>
+
+<div class="segment-card">
+  <span class="segment-icon">⚖️</span>
+  <div class="segment-title">Legal Observers</div>
+  <div class="segment-subtitle">Rights & Legal Support</div>
+  <div class="segment-purpose">Train community on rights and connect to legal resources.</div>
+  <div class="segment-activities">
+    <strong>Key Activities:</strong>
+    <ul>
+      <li>Conduct Know Your Rights trainings</li>
+      <li>Provide legal observer presence</li>
+      <li>Connect to immigration attorneys</li>
+      <li>Document rights violations (with consent)</li>
+    </ul>
+  </div>
+  <div class="segment-restriction">
+    <strong>Note:</strong> May work across segments for training, but don't participate in operations
+  </div>
+</div>
+
+</div>
+
+---
+
+## Detailed Segment Information
+
 ### Sentinels (Observation & Rapid Response)
 
 **Purpose**: Monitor and report suspicious activity to protect the community, and provide rapid response when community members are at risk.
