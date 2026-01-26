@@ -12,6 +12,47 @@ Estos principios son innegociables. Definen lo que hace funcionar al Modelo Sote
 
 Esto protege a todos. Lo que no sabes, no puedes revelar — ya sea por accidente, coacción o compromiso.
 
+### Elige un Carril — Y Quédate en Él
+
+**La regla más importante: Únete a UN segmento. Permanece en ese rol.**
+
+Cuando te unes a una célula, eliges un segmento basado en tus habilidades, disponibilidad y lo que la comunidad necesita. Ese se convierte en tu carril. No cruzas a otros segmentos. No ayudas "solo esta vez" en otra área. No satisfaces la curiosidad sobre lo que otros segmentos están haciendo.
+
+**Por qué esto importa:**
+
+- **La curiosidad es un riesgo de seguridad**: Preguntar "¿qué están viendo los Centinelas?" o "¿a dónde llevan a la gente los Transportadores?" crea vulnerabilidad. La respuesta "No lo sé" es la protección más fuerte que puedes dar a alguien.
+- **Cruzar segmentos crea exposición**: Si conduces para Transportadores una semana y observas para Centinelas la siguiente, ahora sabes demasiado. Si te comprometen, puedes revelar ambas operaciones.
+- **"Solo ayudar" no es ayudar**: El instinto de ayudar en todas partes viene de buenas intenciones, pero socava el modelo de seguridad. Confía en la estructura.
+
+### Consecuencias de Romper la Compartimentación
+
+Romper la compartimentación no solo te pone en riesgo — pone a todos en riesgo:
+
+| Lo Que Sucede | El Daño |
+|--------------|---------|
+| Una persona conoce las actividades de múltiples segmentos | Si es arrestada o coaccionada, puede revelar múltiples operaciones |
+| Información compartida entre segmentos | Crea un mapa de toda la red para cualquiera que la intercepte |
+| Miembros "ayudando" en varios segmentos | Destruye el aislamiento, haciendo que toda la célula sea vulnerable a un solo compromiso |
+| Conversación casual sobre otros segmentos | Difunde información que debería permanecer contenida |
+
+**Si una persona está comprometida y lo sabe todo, toda la red cae.**
+
+La compartimentación no es burocracia. No se trata de control. Se trata de **supervivencia**. La estructura te protege, protege a las personas a las que sirves y protege a todos los demás en la red.
+
+### Cómo Se Ve la Compartimentación en la Práctica
+
+**Bueno:**
+- "Soy Transportador. No sé qué están haciendo los Centinelas, y no necesito saberlo."
+- "Ese no es mi segmento. Déjame conectarte con alguien que maneje eso."
+- "Me enfoco en mi rol. Otros segmentos se enfocan en los suyos."
+
+**Malo:**
+- "Usualmente hago transporte, pero ayudaré con observación hoy."
+- "Escuché que los Centinelas vieron algo ayer — ¿qué fue?"
+- "Conozco a alguien en Recursos. Déjame preguntarles sobre esa situación."
+
+**La prueba**: Si fueras arrestado mañana, ¿podrías revelar solo las actividades de tu propio segmento? Si la respuesta es no, has cruzado un límite.
+
 ## 2. Aval Sobre Reclutamiento
 
 **Cada miembro es avalado personalmente por alguien de confianza.**

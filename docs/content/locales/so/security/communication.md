@@ -78,12 +78,53 @@ Signal sidoo kale wuxuu bixiyaa wicitaanno sir ah:
 
 ## Isgaarsiinta Kooxda
 
+### Ilaalinta Aqoonsiga Kooxaha
+
+**Ha isticmaalin magacyada dhabta ah oo dhammaystiran kooxaha Signal.**
+
+Xubin kasta oo kooxda Signal ku jira wuxuu arki karaa:
+- Magacyada profile-ka xubnaha oo dhan
+- Lambaryada telefoonka (haddii aan lagu qarin dejinta sirta)
+- Goormaad online tahay (haddii aan la joojin)
+
+**Haddii qalab kasta oo kooxda ku jira la qaado ama la halis geliyo, macluumaadkaas wuxuu noqdaa liis xubnimeed.**
+
+**Hab-dhaqannada magacaabista badbaadada:**
+- ✓ Kaliya magacyada hore ("Maryan," "Axmed")
+- ✓ Naanaysyo ama magacyo kale ("Jay," "Alex")
+- ✓ Xarfaha hore ("MK," "TR")
+- ✗ Magacyada sharciga oo dhammaystiran ("Maryan Cali," "Axmed Maxamed")
+- ✗ Magacyo aqoonsiya xirfad ama door ("Sarkaal Mike," "Qareen Sarah")
+
+**Dejinta sirta dheeraad ah:**
+- Qari lambarka telefoonkaaga dadka aan xiriir ahayn (Dejinta Signal → Sirta → Lambarka Telefoonka → Qof kasta ma aha)
+- Jooji "Xaqiijinta Akhris" iyo "Tilmaamayaasha Qorista" (yareeya metadata)
+- Isticmaal sawir profile ah oo aan ku aqoonsan (ama sawir la'aan)
+
+::: warning LIISASKA XUBNIMADA WAA KHATAR
+Koox Signal ah oo leh magacyada dhabta ah ee qof kasta waa liis xubnimeed diyaar u ah fulinta sharciga. Ilaali xubnaha kale adiga aqoonsigaaga ilaalinaya. **Kaliya magacyada hore ama naanaysyo.**
+:::
+
 ### Nadiifinta Kooxda
 
-- Ka saar xubnaha si degdeg ah marka ay baxaan
-- Si joogto ah u dib u eeg xubnimada
-- Ha ku darin xubnaha aan xaqiijin habboon lahayn
-- Maamulayaashu waa inay ahaadaan maamulayaal
+Maaraynta kooxda saxda ah waa muhiim si loo ilaaliyo kala-soocidda iyo amniga:
+
+**Maaraynta Xubnimada:**
+- **Ka saar xubnaha si degdeg ah marka ay baxaan**: Ha suginin. Ka saar maalinta la mid ah haddii suurto gal ah
+- **Si joogto ah u dib u eeg xubnimada**: Baaritaannada bishii si loo hubiyo in qof kasta weli heli lahaa
+- **Xaqiiji ka hor inta aadan ku darin**: Kaliya ku dar xubnaha dhammaystay gelitaanka qaybta gaarka ah
+- **Hal qayb qof kasta**: Waligaa ha ku darin qof kooxo qaybo badan
+- **Maamulayaashu waa inay ahaadaan maamulayaal**: Maamulayaasha kooxdu waxay qaataan mas'uuliyadda amniga, ma aha kaliya isku-dubaridda
+
+**Kala-soocidda Qaybaha Kooxaha:**
+- Qayb kasta waxay leedahay kooxda Signal-ka u gaar ah
+- Xubnahu kaliya waxay ku jiraan kooxda qaybta loo xilsaaray
+- Ha dhex-dhigin kooxaha qaybaha
+- Ha ka hadlin hawlaha qaybaha kale kooxdaada
+
+::: danger KALA-SOOCIDDA FICIL AHAAN
+Haddii aad ku jirto kooxda Gaadiidiyayaasha, waligaa waa inaadan arkin farriimo ku saabsan daawashada Waardiyayaasha. Haddii aad ku jirto kooxda Waardiyayaasha, waligaa waa inaadan arkin farriimo ku saabsan waddooyinka gaadiidka. **Kooxo kala duwan = aqoon kala duwan = amni.**
+:::
 
 ### Ogeysiisyada Hal-dhinac
 
@@ -122,6 +163,41 @@ Mararka qaarkood kanaalka ugu badbaadsan waa mid aan jirin:
 - Qalabka ma jiro (ama qol kale)
 - Qoraalka lama qaadin
 - Soo koobid la heshiiyay kadib haddii loo baahan yahay
+
+## Warbaahinta iyo Isgaarsiinta Dadweynaha
+
+**Siyaasadda Guud: Ha la hadlin warbaahinta unugga.**
+
+Dhammaan xubnaha unugga waa inay ka fogaadaan inay la hadlaan warbaahinta unugga, qaab-dhismeedkiisa, hawlihiisa ama xubnihiisa. Tani waxay ilaalintaa amniga hawlgalka iyo badbaadada xubnaha bulshada nugul.
+
+### Sababta Aamusnaanta Warbaahinta Muhiim u tahay
+
+| Khatar | Saameyn |
+|--------|---------|
+| **Soo bandhigida hawlgalka** | Sharaxaadda sida unuggu u shaqeeyo waxay caawisaa maamulka inay fahmaan oo ay ka hor istaagaan |
+| **Aqoonsiga xubnaha** | Xitaa sharaxaadaha aan cad ahayn waxay caawin karaan aqoonsiga ka-qaybgalayaasha |
+| **Soo bandhigida xubnaha bulshada** | Ka wada hadalka cidda aad caawineysid waxay khatar ku dhigtaa dadka nugul |
+| **Mas'uuliyadda sharciga** | Hadalka dadweynaha waxaa loo isticmaali karaa caddayn baaritaannada |
+| **Fursadaha soo-galitaanka** | Daboolida warbaahinta waxay soo jiidataa dareenka kuwa rabaya inay burburiyaan |
+
+### Haddii Warbaahinta Kula Xiriirto
+
+Marka weriye, saxafi ama warbaahinta kula xiriirto:
+
+**SAMEE:**
+- ✓ **Diid inaad ka hadashid** hawlgallada unugga, xubnimada ama hawlaha gaarka ah
+- ✓ **U toosi arrimaha ballaaran**: Sharax waxa hay'adaha fulinta sameeyaan iyo xuquuqda/sharciyada la jebinayo
+- ✓ **Ka hadal macluumaadka dadweynaha la yaqaan**: Walaacyada guud ee bulshada, xuquuqda sharciga, kheyraadka dadweynaha
+- ✓ **U tus kheyraadka dadweynaha**: ACLU, National Lawyers Guild, ururada xuquuqda soogalootiga
+- ✓ **Noqo edeb leh laakiin adag**: "Ma ka hadli karo taas, laakiin waxaan kuu sheegi karaa walaacyada ballaaran ee bulshadeenna"
+
+**HA SAMEEYN:**
+- ✗ Isu aqoonsi qayb ka mid ah shabakada
+- ✗ Magacaabi xubnaha kale ama sharxi doorarka
+- ✗ Ka wadahadal kiisaska gaarka ah ama dadka la caawineysid
+- ✗ Sharxi faahfaahinta hawlgalka (sida aad u isku-dubaraysaan, meesha aad ku kulantaan, qalabka aad isticmaashaan)
+- ✗ Xaqiiji ama beeni joogitaanka hawlaha gaarka ah
+- ✗ Bixinta sawirro ama muuqaallo muujinaya xubnaha ama hawlaha
 
 ## Baraha Bulshada
 

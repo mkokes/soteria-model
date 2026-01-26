@@ -12,6 +12,47 @@ Mabaadi'dan waa kuwo aan la dooddi karin. Waxay qeexaan waxa ka dhiga Qaabka Sot
 
 Tani waa u ilaalintaa qof kasta. Waxa aadan aqoon, ma sheegi kartid — ha ahaato shil, cadaadis, ama soo-afduubid.
 
+### Dooro Wadaad — Oo Ku Jir
+
+**Xeerka ugu muhiimsan: Ku biir HAL qayb. Ku jir doorkaas.**
+
+Markaad ku biirto unug, waxaad doorataa qayb oo ku salaysan xirfadahaaga, helitaankaaga, iyo waxa bulshadu u baahan tahay. Taasi waxay noqotaa wadaadkaaga. Kuma gudubto qaybaha kale. Kuma caawiso "hal mar oo keliya" meel kale. Ka aarsan maysid xiisaha waxa qaybaha kale sameeyaan.
+
+**Sababta tani muhiim u tahay:**
+
+- **Xiisaha waa khatar amni**: Su'aalaha "maxay Waardiyayaashu arkayaan?" ama "xagee Gaadiidiyayaashu dadka u qaadaan?" waxay abuuraan nuglaansho. Jawaabta "Ma aqaan" waa ilaalinta ugu xooggan ee aad qof siin karto.
+- **Gudubka qaybaha wuxuu abuuraa soo-bandhigid**: Haddii aad u kaxayso Gaadiidiyayaasha toddobaad iyo aad u daawato Waardiyayaasha toddobaadka xiga, hadda waxaad taqaanaa wax badan. Haddii lagaa halis geliyo, waxaad soo bandhigi kartaa labada hawlgal.
+- **"Kaliya caawinta" ma aha caawin**: Dareenka in meel kasta laga caawiyo wuxuu ka yimaadaa ujeeddooyin wanaagsan, laakiin wuxuu burburiyaa qaabka amniga. Ku kalsoow qaab-dhismeedka.
+
+### Cawaaqibka Jabinta Kala-soocidda
+
+Jabinta kala-soocidda kuma dhigayso oo keliya khatar — waxay dhammaan ku dhigtaa khatar:
+
+| Waxa Dhaca | Waxyeellada |
+|------------|-------------|
+| Qof keliya oo yaqaan hawlaha qaybaha badan | Haddii la xiro ama la cadaadiyo, wuxuu soo bandhigi karaa hawlgallo badan |
+| Macluumaad la wadaagay qaybaha dhexdooda | Waxay u abuurtaa khariidad shabakada oo dhan qof kasta oo dhex gala |
+| Xubnaha "caawinta" qaybaha kala duwan | Waxay burburisaa go'doominta, taasoo ka dhigaysa unugga oo dhan mid nugul hal halis |
+| Sheeko caadi ah oo ku saabsan qaybaha kale | Waxay faafisaa macluumaad ku jiri lahaa xakameyn |
+
+**Haddii qof la halis geliyo oo wax walba yaqaan, shabakada oo dhan way dhacaysaa.**
+
+Kala-soociddu ma aha xafiis. Kama hadlayso xakameyn. Waxay ka hadlaysaa **badbaado**. Qaab-dhismeedku wuu ku ilaaliyaa, wuxuu ilaaliyaa dadka aad u adeegto, wuxuuna ilaaliyaa qof kasta oo kale oo shabakada ku jira.
+
+### Sida Kala-soociddu u Muuqato Ficil ahaan
+
+**Wanaagsan:**
+- "Waxaan ahay Gaadiidiye. Ma aqaan waxa Waardiyayaashu sameeyaan, mana u baahni."
+- "Taasi ma aha qaybteeyda. Aan kugu xiro qof taas maamula."
+- "Waxaan diiradda saaraa doorkeeyga. Qaybaha kale waxay diiradda saaraan kuwooda."
+
+**Xun:**
+- "Caadi ahaan waxaan sameeyaa gaadiid, laakiin maanta waxaan ku caawin doonaa daawashada."
+- "Waxaan maqlay Waardiyayaashu wax bay arkeen shalay — maxay ahayd?"
+- "Waxaan aqaanaa qof Kheyraadka ku jira. Aan weydiisto xaaladaas."
+
+**Imtixaanka**: Haddii berri la ku xiro, ma soo bandhigi kartaa oo keliya hawlaha qaybta aad ka tirsan tahay? Haddii jawaabtu tahay maya, xad baad ka gudubtay.
+
 ## 2. Dammaanad Halkii Soo-jiidashada
 
 **Xubin kasta waxaa si shakhsi ah u dammaanaya qof la aamino.**

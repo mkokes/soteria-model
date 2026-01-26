@@ -36,7 +36,7 @@ Es mejor comenzar con 3 personas de confianza profunda que con 10 conocidos. La 
 
 ## Fases de Inicio
 
-### Fase 1: Fundación (Semanas 1-4)
+### Fase 1: Fundación
 
 - [ ] El equipo fundador acuerda compromiso y principios
 - [ ] Todos los miembros completan [entrenamiento de seguridad](/locales/es/security/)
@@ -44,7 +44,7 @@ Es mejor comenzar con 3 personas de confianza profunda que con 10 conocidos. La 
 - [ ] Definir segmentos iniciales basados en necesidades de la comunidad
 - [ ] Establecer proceso de incorporación
 
-### Fase 2: Primeros Miembros (Semanas 5-12)
+### Fase 2: Primeros Miembros
 
 - [ ] Cada fundador avala a 1-2 personas de confianza
 - [ ] Los nuevos miembros pasan por el proceso de incorporación
@@ -52,7 +52,7 @@ Es mejor comenzar con 3 personas de confianza profunda que con 10 conocidos. La 
 - [ ] Comenzar actividades de bajo riesgo (entrenamiento Conoce Tus Derechos, apoyo a negocios)
 - [ ] Probar comunicación y coordinación
 
-### Fase 3: Operaciones (Continuo)
+### Fase 3: Operaciones
 
 - [ ] Activar segmentos según las necesidades de la comunidad
 - [ ] Continuar el aval y crecimiento cuidadoso
@@ -87,18 +87,23 @@ A medida que la confianza y coordinación se fortalecen, asume actividades más 
 ## Errores Comunes
 
 ### Crecer Demasiado Rápido
+
 La presión de ayudar a todos puede llevar a avalar personas en las que realmente no confías. Resiste esto.
 
 ### Demasiada Estructura
+
 No crees infraestructura que aún no necesitas. La estructura debe seguir a la necesidad.
 
 ### Mala Seguridad de Comunicación
+
 Asumir que todos saben OpSec. Entrena a todos, repetidamente.
 
 ### Puntos Únicos de Fallo
+
 Si una persona sabe todo, la célula es vulnerable. Distribuye el conocimiento.
 
 ### Agotamiento
+
 Esto es un maratón. Vayan a su ritmo. Incorporen descanso.
 
 ## Recursos

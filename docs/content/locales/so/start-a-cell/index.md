@@ -36,7 +36,7 @@ Way ka fiican tahay inaad ku bilowdo 3 qof oo si qoto dheer loo aamino intii aad
 
 ## Marxaladaha Bilowga
 
-### Marxaladda 1: Aasaaska (Toddobaadyada 1-4)
+### Marxaladda 1: Aasaaska
 
 - [ ] Kooxda aasaasayaasha waxay ku heshiiyaan heellan iyo mabaadi'
 - [ ] Dhammaan xubnuhu waxay dhammaystiraan [tababarka amniga](/locales/so/security/)
@@ -44,7 +44,7 @@ Way ka fiican tahay inaad ku bilowdo 3 qof oo si qoto dheer loo aamino intii aad
 - [ ] Qeex qaybaha bilowga ee ku salaysan baahiyaha bulshada
 - [ ] Aasaas habka soo dhaweynta
 
-### Marxaladda 2: Xubnaha Koowaad (Toddobaadyada 5-12)
+### Marxaladda 2: Xubnaha Koowaad
 
 - [ ] Aasaasayaal kasta wuxuu u dammaanad qaadaa 1-2 qof oo la aamino
 - [ ] Xubnaha cusub waxay maraan habka soo dhaweynta
@@ -52,7 +52,7 @@ Way ka fiican tahay inaad ku bilowdo 3 qof oo si qoto dheer loo aamino intii aad
 - [ ] Bilow hawlaha halis yar (tababarka Ogow Xuquuqdaada, taageerada ganacsiga)
 - [ ] Tijaabi isgaarsiinta iyo isku-dubbaridka
 
-### Marxaladda 3: Hawlgallada (Joogto)
+### Marxaladda 3: Hawlgallada
 
 - [ ] Hawlgeli qaybaha sida baahiyaha bulshada
 - [ ] Sii wad dammaanad qaadista iyo kobcinta taxaddar leh
@@ -87,18 +87,23 @@ Sida kalsoonida iyo isku-dubbaridku xoogaystaan, qaado hawlo xasaasi ah.
 ## Khaladaadka Caadiga ah
 
 ### Kobcin Aad u Dhakhso Badan
+
 Cadaadiska caawinta qof kasta waxay keeni kartaa inaad u dammaanad qaaddo dad aadan si dhab ah u aaminin. Ka adkaw tan.
 
 ### Qaab-dhismeed Aad u Badan
+
 Ha abuurin kaabayaal aadan weli u baahnayn. Qaab-dhismeedku waa inuu raaco baahida.
 
 ### Amni Xun oo Isgaarsiinta
+
 La qaadashada in qof kasta yaqaan OpSec. Tababar qof kasta, mar kasta.
 
 ### Barta Guuldarada Keliya
+
 Haddii hal qof yaqaan wax kasta, unuggu waa nugul yahay. Qaybi aqoonta.
 
 ### Daal
+
 Tani waa orod dheer. Iska nasto. Ku dhis nasasho.
 
 ## Khayraadka

@@ -8,13 +8,13 @@ hero:
   actions:
     - theme: brand
       text: Understand the Model
-      link: /model/
+      link: ./model/
     - theme: alt
       text: Know Your Rights
-      link: /rights/
+      link: ./rights/
     - theme: alt
       text: Start a Cell
-      link: /start-a-cell/
+      link: ./start-a-cell/
 
 features:
   - icon: 🛡️
@@ -126,7 +126,7 @@ All coordinated through <strong>encrypted communication</strong>, organized in <
 
 <div class="cta-section">
   <p class="cta-text">Ready to learn more?</p>
-  <a href="/model/" class="cta-button">Explore the Model →</a>
+  <a href="./model/" class="cta-button">Explore the Model →</a>
 </div>
 
 </div>
