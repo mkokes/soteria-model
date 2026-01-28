@@ -22,7 +22,7 @@ Tarjetas del tamaño de una billetera que explican los derechos constitucionales
 - Espacios para contactos de emergencia
 - Números de líneas directas
 
-→ **[Imprimir Tarjetas de Derechos](/locales/es/rights/print-cards)**
+→ **[Imprimir Tarjetas de Derechos](/rights/print-cards)**
 
 ::: tip DISTRIBUCIÓN
 Imprime estas tarjetas y distribúyelas ampliamente en tu comunidad. Están diseñadas para caber en una billetera y proporcionar información crítica durante encuentros.
