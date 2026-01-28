@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: Start a Cell
       link: ./start-a-cell/
+    - theme: sponsor
+      text: 💚 Donate
+      link: https://www.gofundme.com/f/support-local-CH-families
 
 features:
   - icon: 🛡️
@@ -32,6 +35,12 @@ features:
 ---
 
 <div class="home-content">
+
+<div class="donate-callout">
+  <h3>💚 Support Our Community</h3>
+  <p>Donations help provide groceries and rent assistance to members of the Columbia Heights, MN community.</p>
+  <a href="https://www.gofundme.com/f/support-local-CH-families" target="_blank" class="donate-button">Donate on GoFundMe</a>
+</div>
 
 ## What is the Soteria Model?
 

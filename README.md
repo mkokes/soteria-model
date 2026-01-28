@@ -3,6 +3,11 @@
 **A community-owned blueprint for mutual aid and protection networks.**
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Donate](https://img.shields.io/badge/Donate-GoFundMe-00B964?logo=gofundme&logoColor=white)](https://www.gofundme.com/f/support-local-CH-families)
+
+## 💚 Support Our Community
+
+Donations to our [GoFundMe campaign](https://www.gofundme.com/f/support-local-CH-families) help provide direct aid such as groceries and rent assistance to members of the Columbia Heights, MN community. Your support is deeply appreciated.
 
 ## What Is This?
 
