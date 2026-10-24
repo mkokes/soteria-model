@@ -109,7 +109,7 @@ Files with small time differences:
 1. ✅ Review English source files to understand changes
 2. ⬜ Translate 2 new files to all 3 languages
 3. ⬜ Update 6 existing files in all 3 languages
-4. ⬜ Update VitePress config if needed for new files
+4. ⬜ Add any new pages to the sidebar in `docs/astro.config.mjs`
 5. ⬜ Test all translations for accuracy and formatting
 6. ⬜ Update TRANSLATION_ROADMAP.md with new status
 

@@ -49,9 +49,11 @@ npm install
 # Start development server
 npm run dev
 
-# Build for production
+# Build for production (also checks for broken links)
 npm run build
 ```
+
+Pushing to `main` builds the site and deploys it to GitHub Pages.
 
 ### Fork & Adapt
 
@@ -64,22 +66,27 @@ npm run build
 
 ```
 soteria-model/
-├── docs/
-│   ├── docs/
+├── docs/                         # Astro + Starlight site
+│   ├── src/content/docs/
 │   │   ├── index.md              # Homepage
 │   │   ├── model/                # The Soteria Model framework
 │   │   ├── rights/               # Know Your Rights content
+│   │   ├── resources/            # Resources hub and printables
+│   │   ├── get-support/          # Requesting support
+│   │   ├── business-support/     # Supporting local businesses
 │   │   ├── start-a-cell/         # How to start a local network
 │   │   ├── security/             # Security practices
 │   │   ├── es/                   # Spanish translations
 │   │   ├── so/                   # Somali translations
-│   │   ├── ar/                   # Arabic translations
-│   │   └── .vitepress/           # VitePress configuration
+│   │   └── ar/                   # Arabic translations
+│   ├── astro.config.mjs          # Site, language, and sidebar configuration
 │   └── package.json
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml            # GitHub Pages deployment
-├── LICENSE
+├── AGENTS.md                     # Guide for AI coding agents
+├── CHANGELOG.md
+├── LICENSE                       # CC BY-SA 4.0
 └── README.md
 ```
 
@@ -120,7 +127,7 @@ This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 Interna
 
 ## Acknowledgments
 
-Built with [VitePress](https://vitepress.dev/). Inspired by mutual aid traditions and community organizing practices worldwide.
+Built with [Astro](https://astro.build/) and [Starlight](https://starlight.astro.build/). Inspired by mutual aid traditions and community organizing practices worldwide.
 
 ---
 

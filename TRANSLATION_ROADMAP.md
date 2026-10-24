@@ -140,7 +140,7 @@ This document tracks the translation progress of the Soteria Model documentation
 
 **Tasks**:
 1. Create directory structure for `hi`, `vi`, `zh-Hans`, `zh-Hant`
-2. Update VitePress config with new locales
+2. Add the new locales to `docs/astro.config.mjs`
 3. Translate all 32 pages for each language
 4. Test builds and navigation
 
@@ -155,7 +155,7 @@ This document tracks the translation progress of the Soteria Model documentation
 
 **Tasks**:
 1. Create directory structure for `hmn`, `ko`, `am`, `om`
-2. Update VitePress config with new locales
+2. Add the new locales to `docs/astro.config.mjs`
 3. Translate all 32 pages for each language
 4. Test builds and navigation
 
@@ -170,7 +170,7 @@ This document tracks the translation progress of the Soteria Model documentation
 
 **Tasks**:
 1. Create directory structure for `fr`, `ru`
-2. Update VitePress config with new locales
+2. Add the new locales to `docs/astro.config.mjs`
 3. Translate all 32 pages for each language
 4. Test builds and navigation
 
@@ -211,8 +211,8 @@ This document tracks the translation progress of the Soteria Model documentation
 ### Directory Structure
 
 ```
-docs/content/
-├── locales/
+docs/src/content/docs/
+│   ├── (English pages at the root)
 │   ├── es/          # Spanish (89% complete)
 │   ├── so/          # Somali (89% complete)
 │   ├── ar/          # Arabic (89% complete)
@@ -228,14 +228,16 @@ docs/content/
 │   └── ru/          # Russian (planned)
 ```
 
-### VitePress Configuration Updates Needed
+### Astro/Starlight Configuration Updates Needed
 
-For each new language, update `docs/.vitepress/config.js`:
+For each new language, update `docs/astro.config.mjs`:
 
-1. Add locale configuration
-2. Add sidebar navigation for each section
-3. Configure language label and direction (RTL for Arabic, Urdu if added)
-4. Test routing and navigation
+1. Add an entry to `locales` with its `label`, `lang`, and `dir: 'rtl'` for right-to-left scripts (Arabic, Urdu if added)
+2. Add the language to the `title` map and to each sidebar group's `translations`
+3. Add its code to `LOCALES` if old `/locales/<lang>/` URLs ever existed for it
+4. Run `npm run build` — it fails on any broken internal link
+
+Page labels in the sidebar come from each translated page's `title`, so pages need no extra navigation config. Untranslated pages fall back to English automatically.
 
 ### Translation Quality Guidelines
 

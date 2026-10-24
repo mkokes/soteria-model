@@ -1,0 +1,23 @@
+---
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default><slot /></Default>
+<div class="site-footer">
+  <p>A replicable blueprint for community safety. Fork it. Adapt it. Protect each other.</p>
+  <p>Released under CC BY-SA 4.0 | No tracking. No data collection.</p>
+</div>
+
+<style>
+  .site-footer {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--sl-color-hairline);
+    text-align: center;
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-3);
+  }
+  .site-footer p {
+    margin: 0.25rem 0;
+  }
+</style>
