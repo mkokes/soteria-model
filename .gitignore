@@ -2,8 +2,8 @@
 node_modules/
 
 # Build output
-docs/content/.vitepress/dist/
-docs/content/.vitepress/cache/
+docs/dist/
+docs/.astro/
 
 # IDE
 .vscode/

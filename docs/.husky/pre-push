@@ -1,15 +1,11 @@
-echo "Running ESLint before push..."
+echo "Building site (validates internal links) before push..."
 
-# Run ESLint from the docs directory
-cd docs && npm run lint
+cd docs && npm run build
 
-# If ESLint fails, prevent the push
 if [ $? -ne 0 ]; then
   echo ""
-  echo "❌ ESLint found errors. Please fix them before pushing."
-  echo "You can run 'cd docs && npm run lint:fix' to automatically fix some issues."
+  echo "❌ Build failed. Fix the errors above (often a broken internal link) before pushing."
   exit 1
 fi
 
-echo "✅ ESLint passed! Proceeding with push..."
-
+echo "✅ Build passed! Proceeding with push..."

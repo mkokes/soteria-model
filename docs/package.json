@@ -1,29 +1,21 @@
 {
-  "name": "vitepress-project",
+  "name": "soteria-model",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev content",
-    "build": "vitepress build content",
-    "serve": "vitepress serve content",
-    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx",
-    "lint:fix": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
     "prepare": "cd .. && husky docs/.husky"
   },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.53.1",
-    "@typescript-eslint/parser": "^8.53.1",
-    "eslint": "^9.39.2",
-    "eslint-plugin-vue": "^10.7.0",
-    "husky": "^9.1.7",
-    "vitepress": "^1.6.4",
-    "vue": "^3.5.27"
+  "dependencies": {
+    "@astrojs/starlight": "^0.42.7",
+    "astro": "^7.3.8",
+    "sharp": "^0.35.5",
+    "starlight-links-validator": "^0.27.0"
   },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search"
-      ]
-    }
+  "devDependencies": {
+    "husky": "^9.1.7"
   }
 }

@@ -159,7 +159,7 @@ This document details the specific content changes in English source files that 
 1. ✅ Review this summary
 2. ⬜ Decide on translation approach (AI-assisted vs professional)
 3. ⬜ Begin Phase 1 (new files)
-4. ⬜ Update VitePress config to include new files in navigation
+4. ⬜ Add any new pages to the sidebar in `docs/astro.config.mjs`
 5. ⬜ Test translations for accuracy
 6. ⬜ Update TRANSLATION_ROADMAP.md when complete
 
