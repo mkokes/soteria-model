@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightLinksValidator from 'starlight-links-validator';
+import pwa from './src/pwa/integration.mjs';
 
 // Served at the domain root (soteriamodel.com). Override for a project-path deploy.
 const base = process.env.BASE_PATH || '/';
@@ -70,6 +71,8 @@ export default defineConfig({
       head: [
         { tag: 'meta', attrs: { name: 'robots', content: 'index, follow' } },
         { tag: 'meta', attrs: { name: 'theme-color', content: '#4a7c59' } },
+        { tag: 'link', attrs: { rel: 'manifest', href: `${base}manifest.webmanifest` } },
+        { tag: 'link', attrs: { rel: 'apple-touch-icon', href: `${base}icons/apple-touch-icon.png` } },
       ],
       defaultLocale: 'root',
       locales: {
@@ -128,5 +131,7 @@ export default defineConfig({
         ]),
       ],
     }),
+    // Last, so the service worker's version hash covers everything other integrations write.
+    pwa(),
   ],
 });

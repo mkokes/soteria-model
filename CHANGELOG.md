@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Installable PWA with offline support. A web app manifest and icons let people add the site to their home screen. A dependency-free service worker saves the home pages, every Know Your Rights page, and Get Support in all four languages on first visit (about 440 KB). Other pages are saved as they're visited, and a translated offline page appears for anything not yet saved.
 - `LICENSE` file with the full CC BY-SA 4.0 legal code, matching the license stated in the README.
 - Build-time link checking (`starlight-links-validator`). `npm run build` now fails on broken internal links or heading anchors.
 - Redirects from old VitePress URLs: `/locales/<lang>/…` goes to `/<lang>/…`, and `/page.html` goes to `/page/`.
