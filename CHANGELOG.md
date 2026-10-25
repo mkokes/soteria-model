@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-10-24
+
 ### Added
 
 - Installable PWA with offline support. A web app manifest and icons let people add the site to their home screen. A dependency-free service worker saves the home pages, every Know Your Rights page, and Get Support in all four languages on first visit (about 440 KB). Other pages are saved as they're visited, and a translated offline page appears for anything not yet saved.
@@ -40,3 +42,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The Coolify dual-deploy workflow example (`.github/workflows/deploy-dual.yml.example`).
 - VitePress, Vue, and the Vue-focused ESLint setup.
 - The placeholder form on the business support page.
+
+[Unreleased]: https://github.com/mkokes/soteria-model/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/mkokes/soteria-model/releases/tag/v1.0.0
