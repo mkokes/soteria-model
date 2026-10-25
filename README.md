@@ -22,6 +22,7 @@ The Soteria Model is an open-source framework for building community-based mutua
 - **Federated & Autonomous**: No central authority; each community is independent
 - **Multi-language**: Available in English, Spanish, Somali, and Arabic
 - **Printable Materials**: Rights cards, flyers, and community resources
+- **Works Offline**: Install it to your home screen. Know Your Rights pages stay readable with no connection.
 - **Privacy by Design**: No tracking, no analytics, no data collection
 
 ## Who Is This For?

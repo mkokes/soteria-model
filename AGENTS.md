@@ -16,7 +16,8 @@ docs/                          # The Astro project (all npm commands run here)
 │   └── es/ so/ ar/            # Translations; same relative paths as English
 ├── src/styles/custom.css      # Theme + component classes used by raw HTML in pages
 ├── src/components/Footer.astro# Starlight Footer override (site tagline/license line)
-├── public/                    # Copied as-is: logo.svg, CNAME
+├── src/pwa/                   # Offline support: service worker template + build integration
+├── public/                    # Copied as-is: logo.svg, CNAME, manifest.webmanifest, icons/
 └── .husky/pre-push            # Runs the build before every push
 TRANSLATION_*.md               # Translation status and planning
 ```
@@ -43,6 +44,7 @@ There are no tests or linters. `npm run build` is the check: the `starlight-link
 - **Asides:** `:::tip[Title]`, `:::caution`, `:::danger`, `:::note`. Close them with `:::`.
 - **Raw HTML is allowed in `.md`** and is used heavily (segment cards, resource cards, forms, home page sections). Its classes are defined in `src/styles/custom.css`. Theme colors are `--sot-*` variables, defined for both dark (default) and `[data-theme='light']` modes. Use those variables, not hard-coded hex values.
 - **Home pages** (`index.md`, `es/index.md`, …) use `template: splash` with `hero:` frontmatter.
+- **Offline pages** (`offline.md` in each language) are the service worker's fallback. They have `pagefind: false` and are kept out of the sidebar.
 
 ## Adding or changing pages
 
@@ -58,4 +60,8 @@ To add a language, add it to `locales`, to the `title` map, and to each sidebar 
 - **The site is served at the domain root** (`base: '/'`). `BASE_PATH` and `SITE_URL` env vars override this for a subpath deploy, but Markdown links don't get the base prefixed automatically.
 - **`public/CNAME`** holds the custom domain (`soteriamodel.com`). Keep it.
 - **The Get Support page form is a placeholder.** It has no `action`, so submitting it reloads the page with the fields in the query string. Don't wire it to any service without discussing privacy first.
+- **The site is an installable PWA that works offline.** `src/pwa/integration.mjs` generates `dist/sw.js` at build time from the `src/pwa/sw.js` template. It's hand-written with no Workbox or CDN dependency, on purpose: the site promises no third-party requests.
+  - On install, it saves the essentials in all languages: `/_astro/` assets, icons, home pages, everything under `rights/`, `get-support/`, and the offline pages. Change `isEssentialPage` to change that set, and keep it small, because every first-time visitor downloads it (about 440 KB gzipped today).
+  - Other pages are network-first and saved once visited. Pages are cached by path only, so form fields in a query string are never stored on the device. Keep it that way.
+  - The worker's version is a hash of the whole build, so any content change ships a new worker, which replaces the old cache on activation. The worker isn't registered under `npm run dev`. Use `npm run build && npm run preview` to test offline behavior.
 - **Content is safety-sensitive.** Never add real names, locations, contacts, or operational details of any actual network. The README lists what not to contribute.
