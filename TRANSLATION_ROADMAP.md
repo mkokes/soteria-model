@@ -2,27 +2,24 @@
 
 ## Overview
 
-This document tracks the translation progress of the Soteria Model documentation site across multiple languages. The site contains **32 total pages** that need translation.
+This document tracks the translation progress of the Soteria Model documentation site across multiple languages. The site contains **33 total pages** (32 content pages plus `offline.md`) per language.
 
 ---
 
 ## Translation Progress by Language
 
-### ✅ Tier 1: Active Languages (In Progress)
+### ✅ Tier 1: Active Languages
 
 | Language | Code | Progress | Files Translated | Files Remaining | Completion % |
 |----------|------|----------|------------------|-----------------|--------------|
-| **Spanish** | `es` | 🟨 Partial | 26/32 | 6 | **81%** |
-| **Somali** | `so` | 🟨 Partial | 26/32 | 6 | **81%** |
-| **Arabic** | `ar` | 🟨 Partial | 26/32 | 6 | **81%** |
+| **Somali** | `so` | 🟢 Complete | 33/33 | 0 | **100%** |
+| **Arabic** | `ar` | 🟢 Complete | 33/33 | 0 | **100%** |
+| **Spanish** | `es` | 🟨 Nearly Complete | 30/33 | 3 | **91%** |
 
-#### Missing Files (All 3 Languages):
+#### Remaining Missing Files in Spanish (`es`):
 - `business-support/index.md` - Business Support page
 - `get-support/index.md` - Get Support page
 - `rights/print-cards.md` - Printable Rights Cards
-- `resources/index.md` - Resources Overview
-- `resources/printable.md` - Printable Resources
-- `resources/technical.md` - Technical Resources
 
 ---
 
@@ -119,18 +116,17 @@ This document tracks the translation progress of the Soteria Model documentation
 
 ### Phase 1: Complete Tier 1 Languages (Spanish, Somali, Arabic)
 **Priority**: 🔴 **URGENT**
-**Effort**: 6 pages × 3 languages = **18 pages**
+**Status**: Somali (`so`) and Arabic (`ar`) are 100% complete (33/33); **3 pages remain in Spanish (`es`)**
 
-**Tasks**:
-1. ⬜ Translate `business-support/index.md` to Spanish, Somali, Arabic
-2. ⬜ Translate `get-support/index.md` to Spanish, Somali, Arabic
-3. ⬜ Translate `rights/print-cards.md` to Spanish, Somali, Arabic
-4. ⬜ Translate `resources/index.md` to Spanish, Somali, Arabic
-5. ⬜ Translate `resources/printable.md` to Spanish, Somali, Arabic
-6. ⬜ Translate `resources/technical.md` to Spanish, Somali, Arabic
+**Remaining Spanish (`es`) tasks**:
+1. ⬜ Translate `business-support/index.md` to Spanish
+2. ⬜ Translate `get-support/index.md` to Spanish
+3. ⬜ Translate `rights/print-cards.md` to Spanish
 
-**Timeline**: 2-3 weeks
-**Impact**: Brings 3 active languages to 100% completion
+**Completed**:
+- ✅ `resources/index.md`, `resources/printable.md`, `resources/technical.md` in Spanish, Somali, and Arabic
+- ✅ `business-support/index.md`, `get-support/index.md`, `rights/print-cards.md` in Somali and Arabic
+- ✅ `offline.md` in English, Spanish, Somali, and Arabic
 
 ---
 
@@ -185,24 +181,24 @@ This document tracks the translation progress of the Soteria Model documentation
 
 | Metric | Count |
 |--------|-------|
-| **Total Languages** | 12 |
+| **Total Languages** | 13 |
 | **Languages Active** | 3 (Spanish, Somali, Arabic) |
-| **Languages Planned** | 9 |
-| **Pages per Language** | 32 |
-| **Total Pages to Translate** | 384 pages (12 languages × 32 pages) |
-| **Pages Already Translated** | 78 pages (3 languages × 26 pages) |
-| **Pages Remaining** | 306 pages |
-| **Overall Completion** | **20%** |
+| **Languages Planned** | 10 |
+| **Pages per Language** | 33 (32 content pages + `offline.md`) |
+| **Total Pages to Translate** | 429 pages (13 languages × 33 pages) |
+| **Pages Already Translated** | 96 pages (`so` 33 + `ar` 33 + `es` 30) |
+| **Pages Remaining** | 333 pages (3 in `es` + 330 in planned languages) |
+| **Overall Completion** | **22%** |
 
 ### Effort Breakdown by Phase
 
 | Phase | Languages | Pages | Estimated Time |
 |-------|-----------|-------|----------------|
-| **Phase 1** | 3 (complete existing) | 18 | 2-3 weeks |
-| **Phase 2** | 4 (new languages) | 128 | 3-4 months |
-| **Phase 3** | 4 (new languages) | 128 | 3-4 months |
-| **Phase 4** | 2 (new languages) | 64 | 2-3 months |
-| **Total** | 12 languages | 338 pages | 8-12 months |
+| **Phase 1** | 1 remaining (`es`) | 3 | < 1 week |
+| **Phase 2** | 4 (new languages) | 132 | 3-4 months |
+| **Phase 3** | 4 (new languages) | 132 | 3-4 months |
+| **Phase 4** | 2 (new languages) | 66 | 2-3 months |
+| **Total** | 13 languages | 333 remaining | 8-12 months |
 
 ---
 
@@ -213,9 +209,9 @@ This document tracks the translation progress of the Soteria Model documentation
 ```
 docs/src/content/docs/
 │   ├── (English pages at the root)
-│   ├── es/          # Spanish (89% complete)
-│   ├── so/          # Somali (89% complete)
-│   ├── ar/          # Arabic (89% complete)
+│   ├── es/          # Spanish (91% complete - 30/33)
+│   ├── so/          # Somali (100% complete - 33/33)
+│   ├── ar/          # Arabic (100% complete - 33/33)
 │   ├── hi/          # Hindi (planned)
 │   ├── vi/          # Vietnamese (planned)
 │   ├── zh-Hans/     # Chinese Simplified (planned)

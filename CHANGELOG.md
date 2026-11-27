@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Optional Cloudflare cache purge step after GitHub Pages deployment (`CLOUDFLARE_API_TOKEN` secret and `CLOUDFLARE_ZONE_ID` variable).
+- Dependabot configuration for `/docs` npm packages and GitHub Actions.
+
 ## [1.0.0] - 2026-10-24
 
 ### Added

@@ -54,7 +54,7 @@ npm run dev
 npm run build
 ```
 
-Pushing to `main` builds the site and deploys it to GitHub Pages.
+Pull requests run the production build (including link validation). Pushing to `main` or triggering the workflow manually builds the site, deploys it to GitHub Pages, and optionally purges the Cloudflare cache (if `CLOUDFLARE_API_TOKEN` secret and `CLOUDFLARE_ZONE_ID` variable are configured).
 
 ### Fork & Adapt
 
@@ -77,9 +77,12 @@ soteria-model/
 │   │   ├── business-support/     # Supporting local businesses
 │   │   ├── start-a-cell/         # How to start a local network
 │   │   ├── security/             # Security practices
+│   │   ├── offline.md            # Offline fallback page
 │   │   ├── es/                   # Spanish translations
 │   │   ├── so/                   # Somali translations
 │   │   └── ar/                   # Arabic translations
+│   ├── src/pwa/                  # Dependency-free service worker & build integration
+│   ├── public/                   # CNAME, web app manifest, icons, logo
 │   ├── astro.config.mjs          # Site, language, and sidebar configuration
 │   └── package.json
 ├── .github/

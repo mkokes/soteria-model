@@ -1,7 +1,7 @@
 # Translation Updates Needed
 
 **Generated:** 2026-01-26  
-**Status:** Content changes detected in English source files
+**Status:** Historical Jan 2026 audit — all 24 listed updates were completed in commits `5088d8b` and `00620ab`. See [TRANSLATION_ROADMAP.md](TRANSLATION_ROADMAP.md) for current progress (only 3 Spanish pages remain: `business-support/index.md`, `get-support/index.md`, `rights/print-cards.md`).
 
 ## Summary
 
